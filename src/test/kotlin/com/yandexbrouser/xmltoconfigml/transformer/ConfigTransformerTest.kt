@@ -53,7 +53,7 @@ class ConfigTransformerTest {
       )
     )
     val result = ConfigTransformer.transform(xmlElement)
-    assertEquals("{\ncity: \"New York\",\nzipcode: 10001}\n", result)
+    assertEquals("{\n\tcity: \"New York\",\n\tzipcode: 10001}\n", result)
   }
 
   @Test

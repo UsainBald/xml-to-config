@@ -39,7 +39,7 @@ object ConfigTransformer {
       } catch(e: IllegalStateException) {
         transform(it)
       }
-      "$name: $value"
+      "\t$name: $value"
     }
     return "{\n$entries}\n"
   }
