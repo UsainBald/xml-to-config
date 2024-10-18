@@ -1,0 +1,31 @@
+<root>
+    <var name="username">"Alice"</var>
+    <var name="age">30</var>
+    <array>
+        <item>"sdasdasdas"</item>
+        <item>"sdasdasdas"</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>"sdasdasdas"</item>
+        <item>"sdasdasdas"</item>
+    </array>
+    <dictionary>
+        <entry name="city">"New York"</entry>
+        <entry name="zipcode">10001</entry>
+        <entry name="languages">
+            <array>
+                <item>1232312</item>
+                <item>"Afssas"</item>
+            </array>
+        </entry>
+    </dictionary>
+    <var name="test">"test"</var>
+</root>
