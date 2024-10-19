@@ -46,9 +46,9 @@ object ConfigTransformer {
 
   fun transformValue(value: String): String {
     return when {
-      value.matches(Regex("\".*\"")) -> value // It's a string, return as is
-      value.matches(Regex("\\d+")) -> value   // It's an integer, return as is
-      value.matches(Regex("\\d+\\.\\d+")) -> value // It's a float, return as is
+      value.matches(Regex("\".*\"")) -> value
+      value.matches(Regex("\\d+")) -> value
+      value.matches(Regex("\\d+\\.\\d+")) -> value
       else -> error("Unsupported value format: $value")
     }
   }
