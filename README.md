@@ -23,7 +23,7 @@ This project is a simple program that transforms an XML file into a custom confi
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/xml-to-configml.git
+   git clone https://github.com/usainbald/xml-to-configml.git
    ```
 
 2. Navigate to the project directory:
