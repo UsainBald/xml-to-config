@@ -13,6 +13,7 @@ repositories {
 }
 
 dependencies {
+    implementation("org.jetbrains.kotlin:kotlin-scripting-jsr223:1.9.10")
     testImplementation(kotlin("test"))
     testImplementation("io.mockk:mockk:1.12.0")
 }

@@ -1,22 +1,15 @@
 <root>
     <var name="username">"Alice"</var>
-    <var name="age">30</var>
+    <var name="USE_VAL_NOT_VAR">30</var>
     <array>
         <item>"sdasdasdas"</item>
         <item>"sdasdasdas"</item>
         <item>1</item>
         <item>2</item>
         <item>3</item>
-        <item>3</item>
-        <item>3</item>
-        <item>3</item>
-        <item>3</item>
-        <item>3</item>
-        <item>3</item>
-        <item>3</item>
-        <item>"sdasdasdas"</item>
-        <item>"sdasdasdas"</item>
     </array>
+    <const>1 + 2 + 4 + 1</const>
+    <string>jefwoifioafnkldsnn33431___</string>
     <dictionary>
         <entry name="city">"New York"</entry>
         <entry name="zipcode">10001</entry>
@@ -25,6 +18,59 @@
                 <item>1232312</item>
                 <item>"Afssas"</item>
             </array>
+        </entry>
+        <entry name="languages">
+            <array>
+                <item>1232312</item>
+                <item>"Afssas"</item>
+            </array>
+        </entry>
+        <entry name="dict2">
+            <dictionary>
+                <entry name="example">123123</entry>
+                <entry name="examples">
+                    <array>
+                        <item>123</item>
+                        <item>122</item>
+                        <item>121</item>
+                        <item>
+                            <array>
+                                <item>123</item>
+                                <item>1321</item>
+                            </array>
+                        </item>
+                        <item>
+                            <dictionary>
+                                <entry name="entry example idk">1233214124123</entry>
+                                <entry name="entry example 2">7856970</entry>
+                                <entry name="whas nine plus ten">
+                                    <const>9 + 10 + 2</const>
+                                </entry>
+                            </dictionary>
+                        </item>
+                    </array>
+                </entry>
+                <entry name="dict3">
+                    <dictionary>
+                        <entry name="example">123123</entry>
+                        <entry name="examples">
+                            <array>
+                                <item>123123</item>
+                                <item>542</item>
+                                <item>543</item>
+                            </array>
+                        </entry>
+                    </dictionary>
+                </entry>
+                <entry name="exampleqere">3415</entry>
+                <entry name="examplessszzzz">
+                    <array>
+                        <item>4152</item>
+                        <item>65324512</item>
+                        <item>212</item>
+                    </array>
+                </entry>
+            </dictionary>
         </entry>
     </dictionary>
     <var name="test">"test"</var>
